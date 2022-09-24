@@ -26,7 +26,7 @@ export const projectsData = [
 	},
 	{
 		id: 3,
-		title: 'OGSO MOUNTAINS ESSENTIELS',
+		title: 'OGSO MOUNTAINS',
 		category: 'WORDPRESS WEBSITE',
 		img: UIImage1,
 	},
