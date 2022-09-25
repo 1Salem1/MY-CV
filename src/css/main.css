@@ -504,11 +504,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mt-5 {
   margin-top: 1.25rem;
 }
-.mb-8 {
-  margin-bottom: 2rem;
-}
 .mt-10 {
   margin-top: 2.5rem;
+}
+.mb-8 {
+  margin-bottom: 2rem;
 }
 .mb-20 {
   margin-bottom: 5rem;
@@ -1466,11 +1466,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .xl\:max-w-screen-xl {
     max-width: 1280px;
-  }
-
-  .xl\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
   }
 
   .xl\:text-3xl {
