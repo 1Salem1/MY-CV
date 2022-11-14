@@ -22,7 +22,8 @@ const ProjectInfo = () => {
 									>
 										<span>{info.title}: </span>
 										<a
-											href="https://stoman.me"
+											href={`https://${info.details}`}
+											target='_blank'
 											className={
 												info.title === 'Website' ||
 												info.title === 'Phone'

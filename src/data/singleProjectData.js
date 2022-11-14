@@ -1,5 +1,8 @@
 // Import images
-import Image1 from '../images/ui-project-1.jpg';
+import Image1 from '../images/Work1.jpg';
+import Image11 from '../images/Work2.jpg';
+import Image79 from '../images/Work3.jpg';
+
 import Image2 from '../images/web-project-2.jpg';
 import Image3 from '../images/mobile-project-2.jpg';
 import Image4 from '../images/mobile-project-1.jpg';
@@ -16,7 +19,7 @@ import {
 
 export const singleProjectData = {
 	ProjectHeader: {
-		title: 'Project Management UI',
+		title: 'SMART OGSO SELECTOR',
 		publishDate: 'Jul 26, 2021',
 		tags: 'UI / Frontend',
 	},
@@ -29,12 +32,12 @@ export const singleProjectData = {
 		{
 			id: 2,
 			title: 'Kabul Project Management UI',
-			img: Image2,
+			img: Image11,
 		},
 		{
 			id: 3,
 			title: 'Kabul Project Management UI',
-			img: Image3,
+			img: Image79,
 		},
 	],
 	ProjectInfo: {
@@ -43,27 +46,27 @@ export const singleProjectData = {
 			{
 				id: 1,
 				title: 'Name',
-				details: 'Company Ltd',
+				details: 'OGSO SMART PRODUCT SELECTOR',
 			},
 			{
 				id: 2,
 				title: 'Services',
-				details: 'UI Design & Frontend Development',
+				details: 'Sports accessories wholesaler',
 			},
 			{
 				id: 3,
 				title: 'Website',
-				details: 'https://company.com',
+				details: 'ogso.vercel.app',
 			},
 			{
 				id: 4,
 				title: 'Phone',
-				details: '555 8888 888',
+				details: '55 516 823',
 			},
 		],
 		ObjectivesHeading: 'Objective',
 		ObjectivesDetails:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',
+			'Smart web application that generate the most suitable ogso product ',
 		Technologies: [
 			{
 				title: 'Tools & Technologies',
@@ -71,7 +74,6 @@ export const singleProjectData = {
 					'HTML',
 					'CSS',
 					'JavaScript',
-					'Vue.js',
 					'TailwindCSS',
 					'AdobeXD',
 				],
@@ -82,56 +84,13 @@ export const singleProjectData = {
 			{
 				id: 1,
 				details:
-					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					'Creation of a web application that generates the perfect ogso product (ski, splitboard) according to the data entered by the user (height, weight, ski style ...) using angular as a frontend and saving the data entered by the user using firebase as a backend.',
 			},
-			{
-				id: 2,
-				details:
-					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
-			},
-			{
-				id: 3,
-				details:
-					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
-			},
-			{
-				id: 4,
-				details:
-					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
-			},
+	
 		],
-		SocialSharingHeading: 'Share This',
+		SocialSharingHeading: '',
 		SocialSharing: [
-			{
-				id: 1,
-				name: 'Twitter',
-				icon: <FiTwitter />,
-				url: 'https://twitter.com/realstoman',
-			},
-			{
-				id: 2,
-				name: 'Instagram',
-				icon: <FiInstagram />,
-				url: 'https://instagram.com/realstoman',
-			},
-			{
-				id: 3,
-				name: 'Facebook',
-				icon: <FiFacebook />,
-				url: 'https://facebook.com/',
-			},
-			{
-				id: 4,
-				name: 'LinkedIn',
-				icon: <FiLinkedin />,
-				url: 'https://linkedin.com/',
-			},
-			{
-				id: 5,
-				name: 'Youtube',
-				icon: <FiYoutube />,
-				url: 'https://www.youtube.com/c/StomanStudio',
-			},
+			
 		],
 	},
 	RelatedProject: {
